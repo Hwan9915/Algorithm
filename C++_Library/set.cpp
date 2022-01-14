@@ -38,6 +38,7 @@ int main()
 
   c.count(1); // c안에 들어 있는 1의 개수를 반환한다.
               // set는 중복 원소가 없기 때문에 0 or 1 을 반환한다.
+              
   c.insert(5);//원소 5를 삽입합니다. 삽입된다면 자동 정렬 됩니다.
               // 성공 실패 여부는 pair<iterator,bool>
               //pair.first는 삽입한 원소의 반복자, pair.second는 true를 반환. 단, 실패하면 false를 반환
