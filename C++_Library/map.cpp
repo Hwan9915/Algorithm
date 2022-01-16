@@ -1,6 +1,7 @@
 #include<iostream>
 #include<map>
 using namespace std;
+map<string,int> reset();
 
 //반복자
 //begin(),end(),rbegin(),rend()
@@ -33,8 +34,8 @@ int main()
   a.max_size();
 
   //원소 접근
-  cout<<a["k"];     //key가 "k"인 value값을 리턴한다.
-  cout<<a.at("k");  //key가 "k"인 value값을 리턴한다.
+  cout<<a["k"]<<endl;     //key가 "k"인 value값을 리턴한다.
+  cout<<a.at("k")<<endl;  //key가 "k"인 value값을 리턴한다.
 
   //수정자
   //insert는 pair<iterator,bool>를 리턴한다.
@@ -52,12 +53,40 @@ int main()
   a.clear();  //a의 모든 원소를 삭제한다.
 
   //swap
-  a.swap(b);  //a와 b를 바꾼다.
+  b.swap(a);  //a와 b를 바꾼다.
 
   //Operations
-  //find
-  //count
-  //lower_bound
-  //upper_bound
+  //find 만약 찾는 것이 없다면 end()를 반환한다.
+  if(a.find("a")!=a.end())
+    cout<<"Find"<<endl;
+
+  //count "a"라는 key값을 가진 원소들의 개수를 리턴한다.
+  cout<<a.count("a")<<endl;
+
+  a=reset();
+  //lower_bound 
+  //key값보다 '같거나' 큰 숫자가 처음으로 등장하는 반복자를 리턴한다.
+  auto itL = a.lower_bound("b");
+  itL--;
+  if(a.begin()==itL)
+    cout<<"it은 b를 가리킨다."<<endl;;
+
+  //upper_bound 
+  //key값 보다 큰 숫자가 처음으로 등장하는 반복자를 리턴한다.
+  auto itU = a.upper_bound("d");
+  if(--a.end()==itU)
+    cout<<"it은 e를 가리킨다."<<endl;
   //equal_range
+}
+
+
+map<string,int> reset()
+{
+  map<string,int> a;
+  a.insert({"a",1});
+  a.insert({"b",2});
+  a.insert({"c",3});
+  a.insert({"d",4});
+  a.insert({"e",5});
+  return a;
 }
