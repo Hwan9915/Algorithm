@@ -5,7 +5,7 @@ array(배열)
 
 vector(동적 배열)
 
-queue (양방향 큐)
+deque (양방향 큐)
 
 forward_list(단방향 리스트)
 
