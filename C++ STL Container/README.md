@@ -3,7 +3,7 @@
 ## 순차 컨테이너(Sequence containers)
 array(배열)
 
-vector(동적 배열)
+vector,string (동적 배열)
 
 deque (양방향 큐)
 
@@ -43,3 +43,5 @@ Unordered_map : 유일 key와 value의 Hash
 Unordered_multimap : 중복허용된 key와 value의 Hash
 
 reference: https://www.cplusplus.com/reference/stl/
+https://www.geeksforgeeks.org/stack-in-cpp-stl/
+https://en.cppreference.com/w/cpp/container/stack
