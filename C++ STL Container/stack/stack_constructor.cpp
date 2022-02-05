@@ -21,7 +21,12 @@ int main()
   std::stack<int,std::vector<int>> fifth_stack_by_vector (second_vector);
   
   std::cout<<"third_stack's size is "<<third_stack.size()<<std::endl;
+  // third_stack's size is 0
+  
   std::cout<<"forth_stack_by_queue's size is "<<forth_stack_by_queue.size()<<std::endl;
-  std::cout<<"fifth_stack_by_vector's size is "<<fifth_stack_by_vector.size()<<std::endl;
+  // forth_stack_by_queue's size is 3
 
+  std::cout<<"fifth_stack_by_vector's size is "<<fifth_stack_by_vector.size()<<std::endl;
+  // fifth_stack_by_vector's size is 2
+  
 }
