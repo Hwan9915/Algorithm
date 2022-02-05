@@ -15,13 +15,12 @@
 >
 > * vector와 stack에서 성능은 큰 차이가 없습니다. 가독성을 위해 stack을 쓰기도 합니다.
 
-## 1. stack_생성자
+## [1. stack_생성자](https://github.com/Hwan9915/Algorithm/blob/main/C%2B%2B%20STL%20Container/stack/stack_constructor.cpp)
 
-- ### [생성자](https://github.com/Hwan9915/Algorithm/blob/main/C%2B%2B%20STL%20Container/stack/stack_constructor.cpp) 
-  - 자세한 설명은 링크안에 설명되어 있다.
+- ### 자세한 설명은 링크안에 설명되어 있다.
 
   
-## 2. stack_ 멤버 함수
+## [2. stack_ 멤버 함수](https://github.com/Hwan9915/Algorithm/blob/main/C%2B%2B%20STL%20Container/stack/stack.cpp)
 
 + empty() : stack이 비어있으면 true 그렇지 않으면 false를 반환한다.
 
@@ -38,4 +37,3 @@
 
 + pop() : top에 있는 원소를 제거한다.
   - stack이 비어있을 경우 오류가 발생한다.
-  
