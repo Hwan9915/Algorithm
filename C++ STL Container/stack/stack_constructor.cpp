@@ -28,5 +28,4 @@ int main()
 
   std::cout<<"fifth_stack_by_vector's size is "<<fifth_stack_by_vector.size()<<std::endl;
   // fifth_stack_by_vector's size is 2
-
 }
