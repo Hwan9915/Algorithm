@@ -2,6 +2,8 @@
 #include<stack>
 using namespace std;
 
+//Ctrl + F 를 이용하면 빨리 찾을 수 있습니다.
+
 int main()
 {
   stack <int> st;
