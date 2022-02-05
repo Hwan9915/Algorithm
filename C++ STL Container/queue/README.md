@@ -2,7 +2,7 @@
 
 ## 0. queue_개요
 > * ### queue는 FIFO(선입선출) 방식이다.
-> > - FIFO(First Input First Output): 먼저 들어온 자료가 먼저 출력된다.
+>   - FIFO(First Input First Output): 먼저 들어온 자료가 먼저 출력된다.
 >
 > * queue는 다른 자료구조와는 달리 처음과 마지막 원소를 제외하곤 임의로 접근할 수 없다.
 >
