@@ -3,7 +3,9 @@
 ## 순차 컨테이너(Sequence containers)
 array(배열)
 
-vector,string (동적 배열)
+string(동적 배열)
+
+vector(동적 배열)
 
 deque (양방향 큐)
 
