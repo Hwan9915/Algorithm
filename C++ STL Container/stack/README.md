@@ -17,8 +17,10 @@
 
 ## 1. stack_생성자
 
-- ### 생성자 
+- ### [생성자](https://github.com/Hwan9915/Algorithm/blob/main/C%2B%2B%20STL%20Container/stack/stack_constructor.cpp) 
+  - 자세한 설명은 링크안에 설명되어 있다.
 
+  
 ## 2. stack_ 멤버 함수
 
 + empty() : stack이 비어있으면 true 그렇지 않으면 false를 반환한다.
