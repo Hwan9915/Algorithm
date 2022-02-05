@@ -14,10 +14,10 @@ int main()
   //단순히 스택으로 만든 경우
   std::stack<int> third_stack;
 
-  //큐를 이용해서 스택을 만든 경우(큐를 복사해옴)
+  //큐를 이용해서 스택을 만든 경우(큐를 복사)
   std::stack<int> forth_stack_by_queue (first_queue);
 
-  //벡터를 이용해서 스택을 만든 경우(벡터를 복사해온다.)
+  //벡터를 이용해서 스택을 만든 경우(벡터를 복사)
   std::stack<int,std::vector<int>> fifth_stack_by_vector (second_vector);
   
   std::cout<<"third_stack's size is "<<third_stack.size()<<std::endl;
@@ -28,5 +28,5 @@ int main()
 
   std::cout<<"fifth_stack_by_vector's size is "<<fifth_stack_by_vector.size()<<std::endl;
   // fifth_stack_by_vector's size is 2
-  
+
 }
