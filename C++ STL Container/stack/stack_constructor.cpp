@@ -11,6 +11,9 @@ int main()
   //99 라는 값이 2개 들어간 벡터
   std::vector<int> second_vector(2,99);
 
+
+  //스택 생성자
+
   //단순히 스택으로 만든 경우
   std::stack<int> third_stack;
 
