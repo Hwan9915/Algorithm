@@ -2,7 +2,7 @@
 
 ## 0. stack_개요
 > * ### stack은 LIFO(후입선출) 방식이다.
-> > - LIFO(Last Input First Output): 먼저 들어온 자료가 먼저 출력된다.
+> > - LIFO(Last Input First Output): 나중에 들어온 자료가 먼저 출력된다.
 >
 > * stack은 다른 자료구조와는 달리 임의의 원소에 접근 및 수정할 수 없습니다.
 >
