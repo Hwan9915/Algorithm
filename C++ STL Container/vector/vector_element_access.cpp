@@ -13,7 +13,6 @@ int main()
 {
   // 사이즈가 6이고 요소가 2,4,6,8,10,12인 벡터 생성
   vector <int> V={2,4,6,8,10,12};
-  cout<<V.max_size();
   
   // operator[]
   // vector의 요소에 접근할 수 있는 operator이다.
