@@ -1,16 +1,16 @@
 # vector
 
 ## 0. vector_개요
-> * vector은 사이즈가 변하는 순차 컨테이너(Sequence Container)이다.
-> * vector은 동적 배열(Dynamic array)이다.
->
-> ### 장점
-> * vector는 array에 비해 저장공간을 관리하고 효율적으로, 동적으로 확장할 수 있다.
-> * vector은 입력의 크기에 따라 용량을 동적으로 할당하기에 용이하다.
->
-> ### 단점
-> - 다차원 배열에선 array보다 복잡하다.
-> - array에 비해 메모리를 더 많이 사용합니다.
+ * vector은 사이즈가 변하는 순차 컨테이너(Sequence Container)이다.
+ * vector은 동적 배열(Dynamic array)이다.
+
+ ### 장점
+ * vector는 array에 비해 저장공간을 관리하고 효율적으로, 동적으로 확장할 수 있다.
+ * vector은 입력의 크기에 따라 용량을 동적으로 할당하기에 용이하다.
+
+ ### 단점
+ - 다차원 배열에선 array보다 복잡하다.
+ - array에 비해 메모리를 더 많이 사용합니다.
 
 ## [1. vector_생성자](https://github.com/Hwan9915/Algorithm/blob/main/C%2B%2B%20STL%20Container/vector/vector_constructor.cpp)
 
@@ -21,7 +21,6 @@
 
 ### [2-1. vector_Modifiers(수정자)](https://github.com/Hwan9915/Algorithm/blob/main/C%2B%2B%20STL%20Container/vector/vector_modifiers.cpp)
 
-assign, push_back, pop_back, clear, insert, erase
 
 + assign : 벡터에 새로운 요소들을 집어넣거나, 현재 요소를 대체하거나, 사이즈를 수정
 
