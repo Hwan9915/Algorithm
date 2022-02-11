@@ -66,7 +66,7 @@ assign, push_back, pop_back, clear, insert, erase
 
 + crend : 첫 번째 요소보다 '이전'을 가리키는 상수 역방향 반복자를 반환
 
-### [반복자에 관한 글](https://github.com/Hwan9915/Algorithm/blob/main/C%2B%2B%20Iterator/README.md)
+### [반복자에 관한 글](https://github.com/Hwan9915/Algorithm/tree/main/C%2B%2B%20Iterator)
 
 ### [2-4. vecotr_Element_access(요소 접근)](https://github.com/Hwan9915/Algorithm/blob/main/C%2B%2B%20STL%20Container/vector/vector_element_access.cpp)
 
