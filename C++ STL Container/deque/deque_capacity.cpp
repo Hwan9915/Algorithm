@@ -34,4 +34,5 @@ int main()
   Q.resize(8,3);
   for(int i=0;i<8;i++)
     cout<<Q[i]<<" ";  //100 100 3 3 3 3 3 3 
+    
 }
